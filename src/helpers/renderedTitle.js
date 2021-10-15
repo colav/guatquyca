@@ -7,13 +7,13 @@ export const renderedTitle = (name) => {
     case "coauthors":
       return "Coautores";
     case "departments":
-      return "Departamentos";
+      return "Comisiones";
     case "department":
-      return "del Departamento";
+      return "de la Comisión";
     case "faculties":
-      return "Facultades";
+      return "Áreas";
     case "faculty":
-      return "de la Facultad";
+      return "del Área";
     case "groups":
       return "Grupos";
     case "group":

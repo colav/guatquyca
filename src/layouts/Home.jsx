@@ -39,13 +39,13 @@ const Home = ({ core, setHome }) => {
     },
     {
       key: "3",
-      search: "Facultad",
-      example: '"Facultad de Medicina"',
+      search: "Área",
+      example: '"Área de Medicina"',
     },
     {
       key: "4",
-      search: "Departamento",
-      example: '"Instituto de Física"',
+      search: "Comisión",
+      example: '"Comisión de Física"',
     },
     {
       key: "5",

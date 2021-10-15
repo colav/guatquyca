@@ -17,12 +17,12 @@ const options = [
     key: "authors",
   },
   {
-    label: "Departamento",
+    label: "Comisión",
     value: "departments",
     key: "departments",
   },
   {
-    label: "Facultad",
+    label: "Área",
     value: "faculties",
     key: "faculties",
   },

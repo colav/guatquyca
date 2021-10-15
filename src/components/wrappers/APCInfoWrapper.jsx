@@ -42,14 +42,14 @@ const APCInfoWrapper = () => {
     const facultyData = {};
     for (const key in state.data.data.faculty) {
       let name = state.data.data.faculty[key].name;
-      facultyData[name.replace("Facultad de", "Fac.")] =
+      facultyData[name.replace("Facultad de", "Área")] =
         state.data.data.faculty[key].value;
     }
 
     const departmentData = {};
     for (const key in state.data.data.department) {
       let name = state.data.data.department[key].name;
-      departmentData[name.replace("Departamento de", "Depto.")] =
+      departmentData[name.replace("Departamento de", "Comisión")] =
         state.data.data.department[key].value;
     }
 
@@ -71,7 +71,7 @@ const APCInfoWrapper = () => {
         <Col xs={24} sm={24} md={12}>
           <DoughnutChart
             data={facultyData}
-            title="Pagos de APC - Facultades"
+            title="Pagos de APC - Áreas"
             id="apc_fa_"
             currency={true}
             height={500}
@@ -81,7 +81,7 @@ const APCInfoWrapper = () => {
         <Col xs={24} sm={24} md={12}>
           <DoughnutChart
             data={departmentData}
-            title="Pagos de APC - Departamentos"
+            title="Pagos de APC - Comisiones"
             id="apc_de_"
             currency={true}
             height={500}
